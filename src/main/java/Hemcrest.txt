@@ -1,0 +1,27 @@
+Genel kullanılanlar
+
+equalTo(X) - "Gerçek bir öğe değerinin, belirli bir öğe değeriyle eşit olup olmadığını kontrol etmek için kullanılır."
+hasItem("value") - "Bir öğe koleksiyonunun belirli bir öğe değerini içerip içermediğini görmek için kullanılır."
+hasSize(3) - "Bir koleksiyondaki gerçek öğe sayısını doğrulamak için kullanılır."
+not(equalTo(X)) - "Hamcrest içinde bulunan herhangi bir verilen eşleştiriciyi tersine çevirir."
+
+Sayiyla ilgili doğrulamalar
+
+equalTo – "Yanıttan alınan sayının, beklenen sayıya eşit olup olmadığı kontrol ediliyor."
+greaterThan – "Çıkarılan sayının, beklenen sayıdan büyük olup olmadığı kontrol ediliyor."
+greaterThanOrEqualTo – "Çıkarılan sayının, beklenen sayıya eşit veya daha büyük olup olmadığı kontrol ediliyor."
+lessThan – "Yanıttan alınan sayının, beklenen sayıdan daha küçük olup olmadığı kontrol ediliyor."
+lessThanOrEqualTo – "Yanıttan alınan sayının, beklenen sayıya eşit veya daha küçük olup olmadığı kontrol ediliyor."
+
+"String ile ilgili doğrulamalar"
+
+equalTo – "JSON'dan çıkarılan metnin, beklenen metinle eşit olup olmadığı kontrol ediliyor."
+equalToIgnoringCase – "JSON'dan çıkarılan metnin, beklenen metinle büyük küçük harf farkını göz ardı ederek eşit olup olmadığı kontrol ediliyor."
+equalToIgnoringWhiteSpace – "JSON'dan çıkarılan metnin, beklenen metinle boşlukları dikkate alarak eşit olup olmadığı kontrol ediliyor."
+containsString – "JSON'dan çıkarılan metnin, beklenen metni bir alt dizgi olarak içerip içermediği kontrol ediliyor."
+startsWith – "JSON'dan çıkarılan metnin, belirli bir metin veya karakterle başlayıp başlamadığı kontrol ediliyor."
+endsWith – "JSON'dan çıkarılan metnin, belirli bir metin veya karakterle bitip bitmediği kontrol ediliyor."
+
+
+
+
